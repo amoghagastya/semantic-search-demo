@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from streamlit_chat import message as st_message
+# from streamlit_chat import message as st_message
 import streamlit.components.v1 as components  # Import Streamlit
 
 # st.set_page_config(
