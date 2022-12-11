@@ -39,7 +39,7 @@ st.sidebar.write(f"""
 st.markdown("# Semantic Search - Knowledge Base")
 
 st.write("Using Existing Knowledge Bases, we can integrate Semantic Search into Conversational Agents with ease.")
-st.write("Note: the Amazon Shopping agent is not trained on ANY intents or training phrases and only uses the default fallback intent. Try typing something in and the bot will query the Knowledge-base below and returs a response based on the closest semantic results.")
+st.write("Note: the Amazon Shopping agent is not trained on ANY intents or training phrases and only uses the default fallback intent. Try typing something in and the bot will query the Knowledge-base below and return a response based on the closest semantic results.")
 
 df = pd.read_parquet('./amzn-embeddings-1.parquet')
 # df = df.astype({'id':'string'})
