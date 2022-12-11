@@ -66,5 +66,5 @@ st.sidebar.write(f"""
 
     **How do I make something like this?**
 
-    It's easy! Book a [free Discovery Call with me](https://calendly.com/amagastya/15min) and I'll get your bot setup in no-time!
+    It's easy! Book a [free Discovery Call with me](https://calendly.com/amagastya/20min) and I'll get your bot setup in no-time!
 """)
