@@ -35,7 +35,7 @@ st.sidebar.write(f"""
     It's easy! Book a [free Discovery Call with me](https://calendly.com/amagastya/15min) and I'll get your bot setup in no-time!
 """)
 
-st.sidebar.header("Knowledge Base")
+# st.sidebar.header("Knowledge Base")
 st.markdown("# Semantic Search - Knowledge Base")
 
 st.write("Using Existing Knowledge Bases, we can integrate Semantic Search into Conversational Agents with ease.")
