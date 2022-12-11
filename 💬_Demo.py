@@ -4,7 +4,7 @@ import openai
 # from openai.embeddings_utils import get_embedding
 import json
 import os
-from streamlit_chat import message as st_message
+# from streamlit_chat import message as st_message
 import streamlit.components.v1 as components  # Import Streamlit
 
 
