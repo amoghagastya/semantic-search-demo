@@ -36,7 +36,7 @@ components.html('''<div id="chat" align=center>
   chat-title="AmazonAssistant"
   agent-id="7aa00f7c-01c0-4afd-b1e3-d88026d64389"
   language-code="en"
-></df-messenger></div>''',height=500, width = 550)
+></df-messenger></div>''',height=600, width = 550)
 
 # styl = f"""
 # <style>
