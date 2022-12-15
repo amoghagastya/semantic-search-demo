@@ -38,6 +38,7 @@ components.html('''<div id="chat" align=center>
   language-code="en"
 ></df-messenger></div>''',height=510, width = 550)
 
+
 # styl = f"""
 # <style>
 #     .chat {
