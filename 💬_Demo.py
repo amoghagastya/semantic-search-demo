@@ -57,7 +57,7 @@ st.sidebar.write(f"""
     The app is powered using OpenAI's embedding service with Pinecone's vector database. The whole process consists
     of *three* steps:
     
-    **1**. User Queries are fed into OpenAI's embeddings service to generate a {'4096'}-dimensional query vector.
+    **1**. User Queries are fed into OpenAI's embeddings service to generate a {'2048'}-dimensional query vector.
     
     **2**. We use Pinecone to identify similar context vectors (previously encoded from the Amazon Dataset).
 
