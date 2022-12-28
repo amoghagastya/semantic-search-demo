@@ -10,7 +10,7 @@ st.markdown("# Current Bot Limitations")
 
 st.write("Currently, the Amazon Shopping Assistant can only accurately converse about one topic at a time.")
 st.write('''This is due to how the similar contexts are retrieved. The entire Chat transcript is provided as the input
-         to query the Embedded Pinecone Database. This is done so that the entire context of the conversation can be preserved and queried.
+         to query the Embedded Pinecone Database. This is done so that the context of the conversation can be preserved and queried.
          However, this comes at the cost of being able to talk about one topic at a time, needing a chat reset before a different
          topic can be answered accurately.''')
 
@@ -31,7 +31,7 @@ st.sidebar.write(f"""
     The app is powered using OpenAI's embedding service with Pinecone's vector database. The whole process consists
     of *three* steps:
     
-    **1**. User Queries are fed into OpenAI's embeddings service to generate a {'4096'}-dimensional query vector.
+    **1**. User Queries are fed into OpenAI's embeddings service to generate a {'2048'}-dimensional query vector.
     
     **2**. We use Pinecone to identify similar context vectors (previously encoded from the Amazon Dataset).
 
