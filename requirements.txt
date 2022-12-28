@@ -2,3 +2,4 @@ pinecone-client==2.0.13
 openai
 streamlit
 matplotlib
+streamlit_chat
