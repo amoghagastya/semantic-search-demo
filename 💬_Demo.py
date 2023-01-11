@@ -112,7 +112,7 @@ def create_context(question, index, mappings, max_len=3750, size="babbage"):
     Find most relevant context for a question via Pinecone search
     """
     q_embed = get_embedding(question, engine=f'text-search-{size}-query-001')
-    res = index.query(q_embed, top_k=3, include_metadata=True)
+    res = index.query(q_embed, top_k=2, include_metadata=True)
     
     cur_len = 0
     contexts = []
